@@ -12,12 +12,16 @@ namespace CSPractice1
         {
             // 컨텍스 키워드
             var abc = "Hello World";    //ok
-            
+
             // 한줄 주석
             /*
              *여러줄 주석
              */
             /*** XML 주석 ***/
+
+            //출력
+            Console.WriteLine("Hello World");
+            Console.Write("뉴라인 X");
         }
     }
 }
