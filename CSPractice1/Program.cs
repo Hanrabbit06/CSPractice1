@@ -62,10 +62,14 @@ namespace CSPractice1
             Console.WriteLine(true && false);
             Console.WriteLine(true || false);
 
-            //#1 12-4 변수
+            //#1 12-4. 변수
             string name = "문자열 자료형";
 
-            
+            //#1 12-5. 복합대입연산자
+            //+= -= *= /= %=
+            string output = "World";
+            output += " World";
+            Console.WriteLine(output);
 
 
         }
